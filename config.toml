@@ -1,0 +1,24 @@
+languageCode = "de-ch"
+baseurl = "http://example.org/"
+theme = "blank-master"
+
+# Configure some basic settings (http://gohugo.io/overview/configuration/#configuration-variables)
+buildDrafts = true
+buildFuture = true
+buildExpired = true
+enableMissingTranslationPlaceholders = true
+
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
+
+[languages.de]
+	languageCode = "de-ch"
+    title = "Multilingual GmbH"
+
+[languages.en]
+	languageCode = "en-us"
+    title = "Multilingual Ltd."
+
+[languages.fr]
+	languageCode = "fr-ch"
+    title = "Multilingual Sarl"

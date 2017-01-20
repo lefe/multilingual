@@ -1,0 +1,6 @@
+	<footer>
+		<p>{{ i18n "selectLanguage" }}: {{ range .Translations }}<a href="{{ .Permalink }}">{{ .Lang }}</a> {{ end}}</p>
+		<p>&copy; {{ .Now.Year }} <a href="{{ .Site.BaseURL }}{{ .Lang }}">{{ .Site.Title }}</a></p>
+	</footer>
+</body>
+</html>

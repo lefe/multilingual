@@ -1,0 +1,9 @@
+
+- id: latestPosts
+  translation: Dernières notifications
+
+- id: selectLanguage
+  translation: Choisir la langue
+
+- id: readMore
+  translation: Continue...

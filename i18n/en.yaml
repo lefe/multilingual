@@ -1,0 +1,9 @@
+
+- id: latestPosts
+  translation: Latest posts
+
+- id: selectLanguage
+  translation: Select language
+
+- id: readMore
+  translation: Read more...
