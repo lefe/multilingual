@@ -2,7 +2,7 @@ languageCode = "de-ch"
 baseurl = "http://example.org/"
 theme = "blank-master"
 
-# Configure some basic settings (http://gohugo.io/overview/configuration/#configuration-variables)
+# Reconfigure some basic settings (http://gohugo.io/overview/configuration/#configuration-variables)
 buildDrafts = true
 buildFuture = true
 buildExpired = true
@@ -11,14 +11,29 @@ enableMissingTranslationPlaceholders = true
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true
 
+[params]
+	author = "Leo"
+
 [languages.de]
-	languageCode = "de-ch"
+    languageCode = "de-ch"
     title = "Multilingual GmbH"
-
+    description = "Deutsche Beschreibung"
+	
+[languages.de.header]
+	description = "Multilinguale Testseite"
+	
 [languages.en]
-	languageCode = "en-us"
+    languageCode = "en-us"
     title = "Multilingual Ltd."
+    description = "English description"
 
+[languages.en.header]
+	description = "Mulitlingual test page"
+	
 [languages.fr]
-	languageCode = "fr-ch"
+    languageCode = "fr-ch"
     title = "Multilingual Sarl"
+    description = "Déscription française"
+
+[languages.fr.header]
+	description = "Page de test mulitlingual"
